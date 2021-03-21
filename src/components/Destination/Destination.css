@@ -1,0 +1,101 @@
+.destination-container{
+    text-align: center;
+}
+
+.google_map img{
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    
+}
+
+.booking-dtl, .booked-dtl{
+    border: 1px solid lightgray;
+    width: 500px;
+    height: 350px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.booking-dtl h6{
+    margin: 10px 5px;
+    text-align: left;
+}
+.booking-dtl input, #searchBtn{
+    width: 450px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+   
+}
+.booking-dtl input{
+    outline: none;
+}
+
+#searchBtn{
+    background-color: #dd591e;
+    color: white;
+    margin-top: 20px;
+}
+#searchBtn:hover{
+    background-color: #414141;
+}
+
+.destinationDtl, .booked-tickets{
+    width: 450px;
+    border: 1px solid lightgray;
+    background-color: #dd591e;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px 0px
+}
+
+.destinationDtl p{
+    margin-left: 20px;
+    color: white;
+}
+.booked-dtl{
+    height: 500px;
+    display: none;
+}
+.booked-tickets img{
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.booked-tickets h6{
+    margin-left: 50px;
+}
+.booked-tickets{
+    display: flex;
+    background-color: #ffffff;
+    margin: 10px 0px;
+
+}
+
+
+@media (max-width:768px){
+    .destinationDtl,.booked-tickets{
+        width: 350px;
+        margin: auto;
+        margin-bottom: 20px;
+        
+    }
+    .booked-dtl{
+        height: 600px;
+    }
+    .booked-dtl, .booking-dtl{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .google_map img{
+        width: 400px;
+        
+    }
+    .booking-dtl input, #searchBtn{
+        width: 350px;
+    }
+}

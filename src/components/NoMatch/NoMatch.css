@@ -1,0 +1,26 @@
+.noMatch{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.noMatch h1{
+    font-size: 100px;
+    margin-bottom: 15px;
+    color: brown;
+}
+.noMatch h2,h5{
+    color: rgb(73, 73, 73);
+    margin-bottom: 10px;
+}
+.noMatch-button{
+    padding: 12px 20px;
+    border-radius: 30px;
+    background-color: rgb(230, 0, 107);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+}
+.noMatch-button:hover{
+    background-color: rgb(158, 0, 145);
+}

@@ -1,0 +1,22 @@
+.ticket-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    
+}
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+    color: #5a0190;
+}
+footer{
+    margin: 50px;
+    text-align: center;
+}
+@media (max-width:768px){
+    .ticket-container{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
