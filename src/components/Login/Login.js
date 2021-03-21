@@ -99,7 +99,7 @@ const Login = () => {
 
 
       const handelSubmit = (e) => {
-        if( user.name && user.email && user.password){
+        if(newUser && user.name && user.email && user.password){
           firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
           .then((res) => {
             const newUserInfo = {...user};

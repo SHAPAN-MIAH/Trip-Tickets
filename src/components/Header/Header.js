@@ -1,13 +1,12 @@
 import React from 'react';
-// import { useContext } from 'react';
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { useContext } from 'react/cjs/react.development';
 import { UserContext } from '../../App';
 import logo from '../../images/bus logo.png';
 import "./Header.css";
 
 const Header = () => {
-    const [loggedInUser] = useContext(UserContext)
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext)
     return (
         <div className="container header">
             <nav className="nav">
