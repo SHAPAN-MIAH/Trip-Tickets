@@ -7,7 +7,7 @@ import logo from '../../images/bus logo.png';
 import "./Header.css";
 
 const Header = () => {
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext)
+    const [loggedInUser] = useContext(UserContext)
     return (
         <div className="container header">
             <nav className="nav">
